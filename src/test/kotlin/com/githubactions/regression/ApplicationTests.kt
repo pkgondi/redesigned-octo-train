@@ -11,6 +11,7 @@ class ApplicationTests {
 	fun contextLoads() {
 		val expected = 42
 		assertEquals(expected, testSample.sum(40, 2))
+		println("Tested cool application")
 	}
 
 }
